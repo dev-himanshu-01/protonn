@@ -58,7 +58,6 @@ nav {
     color: #393939;
     transition: all 400ms ease-out;
     color: #0b30e1;
-
 }
 
 /* NAVIGATION BAR - RIGHT-SIDE */
@@ -97,7 +96,6 @@ nav {
     cursor: pointer;
     font-weight: lighter;
     display: inline-block;
-
 }
 
 .get-started-btn:hover {
@@ -108,11 +106,13 @@ nav {
 /* HEADER */
 header {
     margin: 6em auto;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .hero-section {
-    background-image: url(./assets/hero-bg.png);
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,16 +162,27 @@ header {
     cursor: default;
 }
 
+.hero-icons li img {
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: auto;
+
+    background: rgb(114 133 237 / 10%);
+    box-shadow: 1 0px 0px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+
 .hero-icons li span {
     color: #0b30e1;
 }
 
-.hero-icons li img {
-    /* background-color: rgb(212, 212, 212); */
+.hero-video{
+    border: none;
+    border-radius: 2em;
 }
-
-
-
 
 
 
