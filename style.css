@@ -212,7 +212,7 @@ header {
     column-gap: 6.5em;
 }
 
-.my-section .leftside-section {
+.my-section .rightside-section {
     background-color: #ffff003b;
     border-top-right-radius: 4em;
     border-bottom-right-radius: 4em;
@@ -221,7 +221,7 @@ header {
     justify-content: center;
 }
 
-.my-section .rightside-section {
+.my-section .leftside-section {
     display: inline-flex;
     flex-direction: column;
     gap: 30px;
