@@ -7,6 +7,24 @@
     color: #232323;
 }
 
+/* SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0;
+    background-color: rgb(128, 128, 128);
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+    background-color: #0b30e1;
+    border-radius: 5px;
+}
+
 /* NAVIGATION BAR */
 nav {
     display: flex;
@@ -164,7 +182,6 @@ header {
 
 .hero-icons li img {
     padding: 10px;
-    border-radius: 10px;
     height: 40px;
     width: auto;
 
@@ -179,9 +196,110 @@ header {
     color: #0b30e1;
 }
 
-.hero-video{
-    border: none;
+/* video-player */
+.hero-video {
+    margin-top: 3em;
     border-radius: 2em;
+}
+
+/* SECTION  */
+.my-section {
+    margin-top: 11em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-right: 6.5em;
+    column-gap: 6.5em;
+}
+
+.my-section .leftside-section {
+    background-color: #ffff003b;
+    border-top-right-radius: 4em;
+    border-bottom-right-radius: 4em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.my-section .rightside-section {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 1em 0;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-title {
+    font-size: 3.25em;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.3;
+    cursor: default;
+}
+
+.section-desc {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 3;
+    color: #232323;
+    cursor: default;
+}
+
+.review-box {
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.review-box .yellow-line {
+    border-left: 6px solid #ffda00;
+    height: auto;
+    margin-left: -3px;
+}
+
+.review-box .review-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.review-content blockquote {
+    font-style: normal;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 3;
+    color: #828282;
+    cursor: default;
+}
+
+.review-card {
+    display: flex;
+    gap: 15px;
+}
+
+.review-card img {
+    border-radius: 500px;
+}
+
+.review-card div .review-name {
+    font-size: 1em;
+    font-style: 500;
+}
+
+.review-card div .review-position {
+    font-size: 0.8em;
+    color: grey;
+    font-style: 500;
 }
 
 

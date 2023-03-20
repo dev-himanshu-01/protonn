@@ -23,9 +23,13 @@
       rel="stylesheet"
     />
 
-
     <!-- VIDEO JS -->
     <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+
+    <link
+      href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css"
+      rel="stylesheet"
+    />
 
     <title>Protonn - Get Started Today</title>
   </head>
@@ -92,10 +96,62 @@
           </li>
         </ul>
 
-        <video class="hero-video" width="900" controls>
-          <source src="./assets/hero-vid.mp4" type="video/mp4">
+        <video
+          id="my-video"
+          class="video-js hero-video vjs-theme-sea"
+          controls
+          preload="auto"
+          height="500"
+          poster="./assets/video-bg.jpg"
+          data-setup="{}"
+        >
+          <source src="./assets/hero-vid.mp4" type="video/mp4" />
+
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading
+            to a web browser that supports HTML5 video
+          </p>
         </video>
       </div>
     </header>
+
+    <section class="my-section">
+      <div class="leftside-section">
+        <img src="./assets/phone-section.png" height="700" alt="iphone" />
+      </div>
+
+      <div class="rightside-section">
+        <h3 class="section-title">
+          Attract new clients through engaging <br />
+          video
+        </h3>
+        <p class="section-desc">
+          Use Protonn's Magic Mode to create your own interactive video in
+          minutes. Edit with ease. Post it on social media in one click to
+          attract new clients.
+        </p>
+
+        <div class="review-box">
+          <div class="yellow-line"></div>
+          <div class="review-content">
+            <blockquote>
+              "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad ete
+              Sunt qui esse pariatur duis deserunt mollit dolore cilium minim
+              tempor enim."
+            </blockquote>
+            <div class="review-card">
+              <img src="./assets/review-pfp.jpg" height="40" alt="" />
+
+              <div>
+                <div class="review-name">Wade Warren</div>
+                <div class="review-position">President of Sales</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
   </body>
+  <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 </html>
