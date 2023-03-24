@@ -218,6 +218,7 @@ header {
     border-bottom-right-radius: 4em;
 
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #ffff003b;
 
@@ -613,7 +614,6 @@ header {
     border-radius: 0.5em;
 }
 
-
 .lead-capture-left div .lead-input input::placeholder {
     font-size: 0.8em;
     font-style: normal;
@@ -643,6 +643,97 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+
+/* FOOTER! */
+footer {
+    background-color: #0b30e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 6em;
+}
+
+/* FOOTER (leftside) */
+.footer-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-leftside .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    cursor: default;
+}
+
+.footer-leftside .footer-logo img {
+    /*  */
+}
+
+.footer-leftside .footer-logo span {
+    color: #fff;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 1.2em;
+
+}
+
+/* FOOTER (leftside) - logo ki niche ki woh 2 lines*/
+.footer-leftside .footer-summary {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* this is targets the *first li* of the three ul's */
+.footer-rightside .footer-features li:first-child,
+.footer-rightside .footer-resources li:first-child,
+.footer-rightside .footer-company li:first-child {
+    list-style-type: none;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+/* this targets all the li elements of the all three ul's */
+.footer-rightside .footer-features li,
+.footer-rightside .footer-resources li,
+.footer-rightside .footer-company li {
+    color: #fff;
+    font-weight: 200;
+    list-style-type: none;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+/* when li elements is hovered! */
+.footer-rightside .footer-features li:hover,
+.footer-rightside .footer-resources li:hover,
+.footer-rightside .footer-company li:hover{
+    color: #b1aaaa;
+    transition: all 400ms ease-out;
+    text-decoration: underline;
+} 
+
+.footer-rightside {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+
 
 /* UNDERLINE EFFECT */
 .underlineEff {
