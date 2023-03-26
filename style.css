@@ -652,6 +652,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 5em 6em;
+    margin-top: 6em;
 }
 
 /* FOOTER (leftside) */
@@ -723,8 +724,8 @@ footer {
 .footer-rightside .footer-features li:hover,
 .footer-rightside .footer-resources li:hover,
 .footer-rightside .footer-company li:hover{
-    color: #b1aaaa;
-    transition: all 400ms ease-out;
+    color: #e3e3e3;
+    transition: all 600ms ease-out;
     text-decoration: underline;
 } 
 
