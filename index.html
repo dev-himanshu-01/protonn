@@ -39,6 +39,9 @@
       rel="stylesheet"
     />
 
+    <!-- AOS Animation-Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Protonn - Get Started Today</title>
   </head>
 
@@ -106,6 +109,8 @@
         </ul>
 
         <video
+          data-aos="fade-up"
+          data-aos-duration="2000"
           id="my-video"
           class="video-js hero-video vjs-theme-sea"
           controls
@@ -124,11 +129,19 @@
     </header>
 
     <section class="my-section">
-      <div class="leftside-section">
+      <div
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+        class="leftside-section"
+      >
         <img src="./assets/phone-section.webp" height="650" alt="iphone" />
       </div>
 
-      <div class="rightside-section">
+      <div
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+        class="rightside-section"
+      >
         <h3 class="section-title">
           Attract new clients through engaging video
         </h3>
@@ -160,11 +173,15 @@
     </section>
 
     <section class="plan-section">
-      <h3>All plans include a free, 3-month trial</h3>
-      <p>No credit card needed. Signup today.</p>
+      <h3 data-aos="fade-up" data-aos-duration="2000">
+        All plans include a free, 3-month trial
+      </h3>
+      <p data-aos="fade-up" data-aos-duration="2000">
+        No credit card needed. Signup today.
+      </p>
 
       <!-- main container for all three price options-->
-      <div class="pricing-boxes">
+      <div class="pricing-boxes" data-aos="fade-up" data-aos-duration="2000">
         <!-- PLAN-PLUS 1st -->
         <div class="plan-plus">
           <div class="plan-logo">
@@ -287,7 +304,11 @@
     </section>
 
     <section class="lead-capture-section">
-      <div class="lead-capture-left">
+      <div
+        class="lead-capture-left"
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+      >
         <div>
           <h3 class="lead-heading">Thank you for choosing protonn</h3>
           <p class="lead-sub-heading">
@@ -329,7 +350,11 @@
         </div>
       </div>
 
-      <div class="lead-capture-right">
+      <div
+        class="lead-capture-right"
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+      >
         <img src="./assets/iphone.webp" height="600" alt="iphone" />
       </div>
     </section>
@@ -370,5 +395,13 @@
       </div>
     </footer>
   </body>
+
+  <!-- VideoJS Script -->
   <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
