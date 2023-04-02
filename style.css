@@ -39,7 +39,7 @@ nav {
 /* NAVIGATION BAR - LEFT-SIDE */
 .left-nav {
     display: flex;
-    gap: 40px;
+    gap: 2.5em;
     justify-content: space-between;
 }
 
@@ -65,7 +65,7 @@ nav {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 1.125em;
 }
 
 .left-nav ul li {
@@ -81,15 +81,16 @@ nav {
 /* NAVIGATION BAR - RIGHT-SIDE */
 .right-nav {
     display: flex;
-    gap: 40px;
+    gap: 2.5em;
     align-items: center;
     justify-content: center;
+    font-size: 1em;
 }
 
 .right-nav ul {
     display: flex;
     list-style-type: none;
-    gap: 18px;
+    gap: 1.125em;
     align-items: center;
     justify-content: center;
 }
@@ -168,7 +169,7 @@ header {
 .hero-icons {
     display: flex;
     list-style-type: none;
-    gap: 40px;
+    gap: 2.5em;
     margin-top: 2em;
 }
 
@@ -176,7 +177,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 0.9375em;
     cursor: default;
 }
 
@@ -200,15 +201,20 @@ header {
 .hero-video {
     margin-top: 3em;
     border-radius: 2em;
+    height: 500px;
+}
+
+.hero-video source {
+    height: 500px;
 }
 
 /* SECTION  */
 .my-section {
     margin-top: 11em;
+    margin-right: 6.5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    margin-right: 6.5em;
     column-gap: 6.5em;
 }
 
@@ -259,10 +265,10 @@ header {
 
 /* RIGHTSIDE-SECTION --RIVIEW-BOX */
 .review-box {
-    margin-top: 30px;
+    margin-top: 1.875px;
     display: inline-flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 3.75em;
 }
 
 /* RIVEW-BOX --YELLOW-LINE */
@@ -276,7 +282,7 @@ header {
 .review-box .review-content {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5em;
 }
 
 /* RIVEW-CONTENT 
@@ -301,7 +307,7 @@ header {
 }
 
 .review-card img {
-    border-radius: 500px;
+    border-radius: 31.25em;
 }
 
 .review-card div .review-name {
@@ -323,7 +329,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875em;
 }
 
 /* PLAN-PRICING --HEADING */
@@ -362,7 +368,7 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 3px solid #0b2fe108;
-
+    align-self: flex-end;
     padding: 2.2em 2em;
     border-radius: 0.8em;
 }
@@ -528,6 +534,8 @@ header {
     padding: 2.2em 2em;
     border-radius: 0.8em;
     background-color: #fff;
+    align-self: flex-end;
+
 }
 
 .plan-team-tag {
@@ -549,12 +557,13 @@ header {
 
 /* LEAD-CAPTURE FORM  */
 .lead-capture-section {
+    margin: 0 0 2em 2em;
     margin-top: 11em;
+
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    column-gap: 6.5em;
-
+    column-gap: 2em;
 }
 
 /* LEAD-CAPTURE-FROM (LEFTSIDE)  */
@@ -562,9 +571,10 @@ header {
     cursor: default;
     text-align: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 40px;
+    justify-content: center;
+    gap: 2.5em;
 
     align-self: center;
 }
@@ -633,7 +643,7 @@ header {
 
 /* LEAD-CAPTURE-FROM (RIGHTSIDE)  */
 .lead-capture-right {
-    padding: 2em 7em;
+    padding: 2em 5em;
     background-color: #ffff003b;
     border-top-left-radius: 4em;
     border-bottom-left-radius: 4em;
@@ -666,7 +676,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 8px;
+    gap: 0.5em;
     cursor: default;
 }
 
@@ -723,16 +733,16 @@ footer {
 /* when li elements is hovered! */
 .footer-rightside .footer-features li:hover,
 .footer-rightside .footer-resources li:hover,
-.footer-rightside .footer-company li:hover{
+.footer-rightside .footer-company li:hover {
     color: #e3e3e3;
     transition: all 600ms ease-out;
     text-decoration: underline;
-} 
+}
 
 .footer-rightside {
     list-style-type: none;
     display: flex;
-    gap: 70px;
+    gap: 4.375em;
 }
 
 
