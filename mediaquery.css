@@ -1,6 +1,191 @@
 /* AVERAGE MOBILE DEVICES  */
 @media screen and (min-width: 360px) and (max-width: 480px) {
-    
+    nav {
+        padding: 1em 0.4em;
+        gap: 0.6em;
+    }
+
+    .get-started-btn {
+        display: none;
+    }
+
+    .left-nav,
+    .right-nav {
+        font-size: 0.7em;
+        gap: 1em;
+    }
+
+    .left-nav ul {
+        gap: 1em;
+    }
+
+    .get-started-btn {
+        font-size: 0.8em;
+    }
+
+    .hero-description {
+        padding: 0 1em;
+    }
+
+
+    .my-section {
+        margin: 0;
+        margin-top: 5em;
+        margin-right: 1em;
+        padding: 0;
+
+        display: block;
+    }
+
+    .my-section .leftside-section {
+        display: none;
+    }
+
+    .hero-icons {
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    /* RIGHTSIDE-SECTION --TITLE */
+    .section-title {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 1em;
+
+    }
+
+    .section-desc {
+        text-align: center;
+        font-size: 1em;
+        margin: 0 1em;
+    }
+
+    .review-box {
+        margin-left: 2em;
+        /* justify-content: center; */
+    }
+
+    .review-box .review-content {
+        gap: 1.5em;
+    }
+
+    .review-content blockquote {
+        font-size: 0.8em;
+    }
+
+    .review-card div .review-name {
+        font-size: 0.7em;
+        font-style: 500;
+    }
+
+    .review-card div .review-position {
+        font-size: 0.6em;
+        color: grey;
+        font-style: 500;
+    }
+
+
+    .plan-section {
+        margin-top: 5em;
+    }
+
+    .plan-section h3 {
+        font-size: 1.5em;
+        padding: 0 2em;
+    }
+
+    .plan-section p {
+        font-size: 1em;
+        margin-bottom: 2em;
+        /* padding: 0 2em; */
+    }
+
+    .review-box {
+        gap: 0.625em;
+    }
+
+    .pricing-boxes {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .lead-capture-section {
+        margin: 5em 1em 0 1em;
+        padding: 0;
+        column-gap: 1.5em;
+
+        display: block;
+    }
+
+    /* LEFTSIDE HEADING */
+    .lead-capture-left div h3 {
+        font-size: 1.5em;
+    }
+
+    .lead-capture-section div p {
+        font-size: 1em;
+    }
+
+    .lead-capture-left {
+        gap: 3em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lead-capture-left div .lead-input {
+        gap: 0.625em;
+        flex-direction: column;
+    }
+
+    .lead-capture-left div .lead-input input {
+        font-size: 1.2em;
+    }
+
+    .lead-capture-left div .lead-sub-info {
+        font-size: 0.7em;
+    }
+
+    .lead-capture-left .lead-app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625em;
+    }
+
+    .lead-capture-right {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lead-capture-right img {
+        height: 250px;
+    }
+
+
+    footer {
+        flex-direction: column;
+        gap: 3em;
+
+        padding: 3em 3em;
+    }
+
+    .footer-rightside {
+        gap: 1.875em;
+        font-size: 0.8em;
+    }
+
+    .footer-leftside {
+        gap: 1.5em;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-leftside .footer-summary {
+        font-size: 0.8em;
+    }
 }
 
 /* IPADS AND TABLETS  */
