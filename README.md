@@ -79,7 +79,7 @@ If you have any feedback, please reach out to us at himanshu01.dev@gmail.com
 <br>
 <br>
 
-## Acknowledgements
+## 🎈 Acknowledgements
 
  - [Design by Luke Wojcik](https://dribbble.com/shots/18126526-Protonn-Landing-Page)
 
