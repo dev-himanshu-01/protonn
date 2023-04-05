@@ -25,6 +25,10 @@
     border-radius: 5px;
 }
 
+body {
+    overflow-x: hidden; /* Hide vertical scrollbar */
+}
+
 /* NAVIGATION BAR */
 nav {
     display: flex;
