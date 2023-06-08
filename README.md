@@ -45,6 +45,8 @@ and then Open with live-server,
 ## 📸 Screenshots 
 
 ![Untitled design](https://user-images.githubusercontent.com/110885026/230068902-31d5a785-d25d-4c24-a542-825c666c1d9b.png)
+![image](https://github.com/garadiya0/protonn/assets/110885026/f93ea468-b082-4f2f-b3bf-7e7a8bdd88e2)
+
 
 
 <br>
